@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(42, 48, 77);
+  font-family: Fjalla One;
+}
+
+header {
+  padding: 20px 50px;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: rgb(255, 217, 0);
+  font-size: 50px;
+}
+
+main .box {
+  position: relative;
+}
+
+main::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.b-box {
+  padding: 5rem 1.6cm;
+}
+
+.box {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(255, 217, 0);
+}
+
+.box > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.woman {
+  flex-basis: 50%;
+  height: 90vh;
+}
+
+.woman img {
+  width: 100%;
+  height: 90vh;
+}
+
+.image1-text {
+  /* background-color: rgb(255, 217, 0); */
+  padding: 0rem 2.5rem;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+
+  flex-basis: 48%;
+}
+
+.image1-text h1 {
+  color: rgb(42, 48, 77);
+  font-size: 70px;
+}
+
+.image1-text p {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 2rem 0;
+}
+
+.original-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(42, 48, 77);
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+  /* display: flex; */
+  /* background-color: lawngreen; */
+  padding: 100px 100px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.icon {
+  padding: 20px;
+  /* background-color: red; */
+}
+
+.icon h1 {
+  color: rgb(203, 207, 230);
+  font-size: 50px;
+  font-weight: 500;
+  margin: 1.5rem;
+}
+
+.icon p {
+  color: rgb(203, 207, 230);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 228, 77);
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+}
+
+.icon2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: rgb(255, 228, 77);
+  padding: 20px 0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.icon2 img {
+  width: 50%;
+}
+
+.icon3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 228, 77);
+}
+
+/* SECTION 2*/
+
+.section-2 {
+  background-color: rgb(255, 217, 0);
+  padding: 70px;
+}
+
+.section-2-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  flex-basis: 50%;
+  height: 90vh;
+  background: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: 90vh;
+}
+
+.card-text {
+  padding: 0 60px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.card-text .txt h2 {
+  color: #2a304d;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(255, 217, 0);
+  margin: 10px 0;
+}
+
+.card-text .txt p {
+  margin-bottom: 15px;
+}
+
+.card-text .txt a {
+  text-decoration: none;
+  color: #000;
+}
+.card1 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 img {
+  width: 100%;
+  height: 70vh;
+}
+
+.card1 > div > img {
+  width: 55%;
+  height: 70vh;
+}
+
+.card1 .list {
+  flex-basis: 45%;
+  background-color: #2a304d;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.card1 .list > div {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+
+.card1 {
+  flex-basis: 50%;
+  height: 70vh;
+  background: #fff;
+}
+
+/* STYLING THE BLACK AND WHITE BACKGROUND */
+.section2-after {
+  background-image: url(images/s_100.png);
+  background-color: #fff;
+  background-repeat: repeat-x;
+  height: 100px;
+  width: 100%;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+  background-color: rgb(255, 217, 0);
+  padding: 70px;
+}
+
+.section-3-con-a {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-3-con-a > .diva {
+  width: 100%;
+  height: 90vh;
+  background-color: #fff;
+  padding: 49px;
+}
+
+.diva h2 {
+  color: rgb(42, 48, 77);
+  width: 371px;
+  font-size: 3.2222222222222223rem;
+  margin: 155px 0 0;
+}
+
+.diva ol {
+  font-style: italic;
+  margin: 20px 0 60px;
+  padding-left: 20px;
+}
+
+.section-3-con-a > .divb {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(42, 48, 77);
+  padding: 49px;
+}
+
+.divb h2 {
+  font-size: 50px;
+  color: #cbcfe6;
+  margin: 175px 0 0;
+}
+
+.divb p {
+  font-style: italic;
+  margin: 20px 0 60px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+/* SECTION 4 */
+
+.section-4 {
+  /* background-color: red; */
+  padding: 151px;
+}
+
+.section-4-con {
+  /* background-color: green; */
+  text-align: right;
+}
+
+.section-4-con h4 {
+  color: rgb(255, 255, 232);
+  font-size: 30px;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.section-4-con h2 {
+  color: rgb(203, 207, 230);
+  font-size: 56px;
+  font-weight: 500;
+  position: relative;
+}
+
+.section-4-con h2::after {
+  content: "";
+  width: 50%;
+  height: 6px;
+  bottom: -10px;
+  right: 0px;
+  background-color: rgb(255, 217, 0);
+  position: absolute;
+}
+
+.section-4-con p {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* SECTION 5 */
+
+.section-5 > div {
+  display: flex;
+  height: 25rem;
+}
+
+.section-5 > div img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.section-5 .section-5c {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.section-5 .section-5c h2 {
+  font-size: 40px;
+  color: #2a304d;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.section-5 .section-5c p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* SECTION 6 */
+
+.section-6 {
+  background-color: rgb(255, 217, 0);
+  padding: 12rem;
+}
+
+.section-6 h2 {
+  color: #2a304d;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+}
+
+.section-6-con h2::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  bottom: -20px;
+  left: 0;
+  background-color: #2a304d;
+  position: absolute;
+}
+
+.section-6 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 35px 0;
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+.section-6 a {
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* SECTION 7 */
+
+.section-7 {
+  padding: 5rem 21rem;
+}
+
+.field {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.field:hover {
+  background-color: #2a304d;
+}
+
+.field:focus {
+  background-color: #fff;
+  border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area {
+  min-height: 150px;
+}
+
+.btn {
+  padding: 1rem 1.3rem;
+  font-size: 1.1rem;
+  background-color: rgb(255, 217, 0);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+  background-color: rgb(230, 195, 0);
+}
+
+.section-7-con > div > div > img {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-7-con > div > div > img:hover {
+  cursor: pointer;
+}
+
+.footer-2 {
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+  color: #fff;
+  padding: 2.5rem 0;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-2 p {
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.footer-2 a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-2 a:hover {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-2 hr {
+  width: 50%;
+  margin: 0.25rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
